@@ -96,11 +96,12 @@ if __name__ == "__main__":
     timeline.adicionar_evento(2018, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\formatura.jpg")
     timeline.adicionar_evento(2021, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\foto.jpg")
     timeline.adicionar_evento(2024, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\viagem.jpg")
-    # Entrada dinâmica de eventos
+    # caso queira testar, comente as linhas acima, com o "#", caso contrário vai dar erro, e decomenta a linha abaixo
     #timeline.entrada_dinamica()
 
     # Gera PDF com a timeline
     timeline.gerar("timeline2.pdf")
 
 print("Fim")
+
 
