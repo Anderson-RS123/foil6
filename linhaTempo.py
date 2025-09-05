@@ -86,16 +86,16 @@ if __name__ == "__main__":
     timeline = Timeline()
     
     # Exemplos
-    timeline.adicionar_evento(1980, "Pais se conheceram - Os pais se conheceram quando eram jovens. Se eu não engano, eram vizinhos.", r"C:\Users\Usuario\Pictures\foto.jpg")
-    timeline.adicionar_evento(2000, "Ficaram Juntos - Em torno dessa data, os 2 ficaram juntos.  Pai: Aldo Afonso Menegassi(55 anos). Gosta de viver em contato com a natureza, pescar, assistir futebol. Mãe: Lisete Steuernagel(54 anos). Gosta de conversar, sempre está ativa, gosta de cuidar do ambiente que vive. Situação atual: estão separados a cerca de 19 anos.", r"C:\Users\Usuario\Pictures\paimae.jpg")
-    timeline.adicionar_evento(2004, "Meu nascimento - Meu nascimento em 19/03/2004, signo peixes. Apelido quando pequeno: Neni. Irmão mais velho: Dionas(10 anos e 5 meses de diferença). Características quando pequeno: Gostava de bricar com carinhos e jogar futebol. Brincava com os animais, chorava bastante, ficava bastande doente.  Imagens mais antigas: Minha mãe ensinando matemática básica; Buscar lenha para o fogão com um carrinho de madeira. Adulto-mãe: Minha vó materna.", r"C:\Users\Usuario\Pictures\paimae.jpg")
-    timeline.adicionar_evento(2004, "0 a 5 anos - Ficava bastante doente, por causa da bronquite asmática(já estou curado); Pais se separaram; Batizado; Idade que começei a falar(11 meses).", r"C:\Users\Usuario\Pictures\terneiro.jpg")
-    timeline.adicionar_evento(2010, "5 a 7 anos - Início na escola; Viajar de ônibus; 1° Professora: Patrícia; Os primeiros dias na escola, eu chorava bastante; Aprender a ler e escrever; Brincava sozinho, fazendo estradas no galpão; Andar de bicicleta sem rodinhas;", r"C:\Users\Usuario\Pictures\terneiro.jpg")
-    timeline.adicionar_evento(2013, "8 a 10 anos - Primeira medalha olímpica municipal, de 2° lugar, em salto em altura; Gostava de jogar futebol; Melhores amigos: Gadiel, Maicon, Gabriel; Dirigia o carro do meu pai(mexia apenas o volante)", r"C:\Users\Usuario\Pictures\medalha.jpg")
-    timeline.adicionar_evento(2015, "10 a 12 anos - Pescar com meu pai; Nasceu meu irmão mais novo por parte de pai; Mais medalhas das olimpiadas; Inventava bricadeiras de futebol;", r"C:\Users\Usuario\Pictures\medalha.jpg")
-    timeline.adicionar_evento(2018, "13 a 15 anos - Formatura no 9° ano; Início no ensino médio; Jogava jogos como: Call of Dutty, Need for Speed, GTA San Andreas, CS, jogos de futebol no celular, o principal: Dream League Soccer; Dirigia trator;", r"C:\Users\Usuario\Pictures\formatura.jpg")
-    timeline.adicionar_evento(2021, "15 a 18 anos - Pandemia, só ficava em casa; Formatura no Ensino Médio; Começei a morar na cidade; Início na faculdade; Estágio de Assistente Técnico de computadores; CNH; Serviço Militar Obrigatório;", r"C:\Users\Usuario\Pictures\foto.jpg")
-    timeline.adicionar_evento(2024, "18 até hoje - Emprego na área; Viagem Foil para Minas Gerais e viagem internacional para Itália e França. Compra do carro;", r"C:\Users\Usuario\Pictures\viagem.jpg")
+    timeline.adicionar_evento(1980, "retirei a descricao e as imagens por questão de privacidade.", r"C:\Users\Usuario\Pictures\foto.jpg")
+    timeline.adicionar_evento(2000, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\paimae.jpg")
+    timeline.adicionar_evento(2004, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\paimae.jpg")
+    timeline.adicionar_evento(2004, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\terneiro.jpg")
+    timeline.adicionar_evento(2010, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\terneiro.jpg")
+    timeline.adicionar_evento(2013, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\medalha.jpg")
+    timeline.adicionar_evento(2015, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\medalha.jpg")
+    timeline.adicionar_evento(2018, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\formatura.jpg")
+    timeline.adicionar_evento(2021, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\foto.jpg")
+    timeline.adicionar_evento(2024, "retirei a descricao e as imagens por questão de privacidade", r"C:\Users\Usuario\Pictures\viagem.jpg")
     # Entrada dinâmica de eventos
     #timeline.entrada_dinamica()
 
@@ -103,3 +103,4 @@ if __name__ == "__main__":
     timeline.gerar("timeline2.pdf")
 
 print("Fim")
+
